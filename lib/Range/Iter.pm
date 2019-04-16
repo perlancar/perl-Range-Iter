@@ -11,7 +11,7 @@ our @EXPORT_OK = qw(range_iter);
 
 my $re_num = qr/\A[+-]?[0-9]+(\.[0-9]+)?\z/;
 
-sub range_iter {
+sub range_iter($$;$) {
     my ($start, $end, $step) = @_;
     $step //= 1;
 
