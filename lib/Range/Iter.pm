@@ -70,6 +70,8 @@ Anything that can be incremented by Perl is game:
 
 =head1 SEE ALSO
 
+L<Range::ArrayIter>, L<Range::Iterator>
+
 L<Array::Iter>
 
 =cut
